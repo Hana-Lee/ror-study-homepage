@@ -4,7 +4,7 @@ if Rails.env.production?
         provider: 'AWS',
         aws_access_key_id: ENV['S3_ACCESS_KEY'],
         aws_secret_access_key: ENV['S3_SECRET_KEY'],
-        region: 'Tokyo',
+        region: 'ap-northeast-1',
         endpoint: 'https://leehana.s3-website-ap-northeast-1.amazonaws.com'
     }
 
